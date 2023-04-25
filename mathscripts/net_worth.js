@@ -1,0 +1,3 @@
+var assets;
+
+var net;
