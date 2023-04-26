@@ -1,12 +1,13 @@
-// sample inputs
-var areaOfRectangle = 24;
+// sample inputs//
 
-var length = 4;
+var width = 4;
 
-var width = 6;
+var length = 24;
 
-//calculations
 
-var x = length * width ;
 
-console.log(`area of rectangle is ${width * length}`);
+//expression //
+totalArea = width * length;
+
+//output//
+console.log("the area of the rectangle is " + totalArea);

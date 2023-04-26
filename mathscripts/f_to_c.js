@@ -1,7 +1,8 @@
-var currentfahrenheit = 50;
-var num1 = 32;
-var num2 = 5/9;
+"use strict";
 
-var celsius = (currentfahrenheit - num1) * num2;
+var fahrenheit = 50;
 
-console.log(currentfahrenheit + " dregrees fahrenheit is " +  celsius +" degrees celsius")
+
+var celsius = (fahrenheit - 32) * 5/9;
+
+console.log(fahrenheit + " dregrees fahrenheit is " +  celsius +" degrees celsius")

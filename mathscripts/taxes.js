@@ -1,7 +1,14 @@
-var motnhlyIncome = 1800;
+"use strict";
 
-var federalTax = 0.23;
+//get all know values
 
-var taxWithholding = (federalTax * motnhlyIncome)
+var salary = 3800;
 
-console.log("Federal Tax with holding is $" + taxWithholding )
+var federalTaxRate = 0.23;
+
+var taxWithholding = (federalTaxRate * salary)
+var amountOfCheck = salary - federalTaxRate;
+
+console.log("you made $" + salary);
+console.log("Federal Tax with holding is $" + taxWithholding );
+console.log("so heres your check for $ " + amountOfCheck);
