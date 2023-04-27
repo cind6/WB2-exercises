@@ -2,7 +2,7 @@
 
 // Define the pay rate and hours worked
 let payRate = 10;
-let hoursWorked = 45;
+let hoursWorked = 40;
 
 // Calculate the gross pay
 let regularPay = 0;
@@ -16,4 +16,4 @@ if (hoursWorked > 40) {
 let grossPay = regularPay + overtimePay;
 
 // Print the gross pay
-console.log(`The gross pay is $${grossPay.toFixed(2)}`); 
+console.log(grossPay); 
